@@ -35,11 +35,11 @@ const BestBusiness = () => {
                 <div className="grid items-center py-5 md:p-8">
                     {dataFeaturesBusiness.map(({ id, icon, title, description }) => (
                         <Reveal key={id}>
-                            <div className="grid grid-flow-col gap-5 px-4 py-2 rounded-3xl group hover:bg-radialBlack">
+                            <div className="grid grid-flow-col gap-5 px-4 py-2 rounded-3xl group hover:bg-cyan-200">
                                 <Image src={`/${icon}.png`} alt={title} width={40} height={40} />
                                 <div>
-                                    <h4 className="text-primary">{title}</h4>
-                                    <p className="text-primaryDark">{description}</p>
+                                    <h4 className="text-white">{title}</h4>
+                                    <p className="text-grey">{description}</p>
                                 </div>
                             </div>
                         </Reveal>

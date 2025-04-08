@@ -37,7 +37,7 @@ const Slide = () => {
                             <Image src={image} alt={name} width="50" height={50} className="mr-5" />
                             <div>
                                 <h4 className="text-center">{name}</h4>
-                                <p className="text-primaryDark">{work}</p>
+                                <p className="text-grey-">{work}</p>
                             </div>
                         </div>
                     </Reveal>

@@ -10,14 +10,14 @@ const Footer = () => {
                 <div>
                     <Image src="/logo.png" width={200} height={40} alt="Logo Bank" />
                     <Reveal>
-                        <p className="mt-5 text-primaryDark max-w-[250px]">Una nueva forma de hacer pagos de forma sencilla</p>
+                        <p className="mt-5 text-grey max-w-[250px]">Una nueva forma de hacer pagos de forma sencilla</p>
                     </Reveal>
                 </div>
                 {footerData.map(({ id, title, links }) => (
                     <div key={id}>
                         <h4 className="mt-8 text-lg md:mt-0"><Reveal>{title}</Reveal></h4>
                         {links.map(({ id, name, link }) => (
-                            <Link key={id} href={link} className="block mt-4 text-primaryDark hover:text-white">
+                            <Link key={id} href={link} className="block mt-4 text-grey hover:text-white">
                                 <Reveal>
                                     {name}
                                 </Reveal>

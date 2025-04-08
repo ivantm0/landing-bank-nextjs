@@ -16,7 +16,7 @@ const Testimonials = () => {
                 </Reveal>
                 <Reveal>
                     <div className="self-center">
-                        <p className="text-primaryDark">Todo lo que necesitas para aceptar pagos con tarjeta y hacer
+                        <p className="text-grey">Todo lo que necesitas para aceptar pagos con tarjeta y hacer
                             crecer tu negocio en cualquier parte del planeta.</p>
                     </div>
                 </Reveal>
