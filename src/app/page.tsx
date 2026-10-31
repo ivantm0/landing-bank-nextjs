@@ -1,25 +1,31 @@
-import BestBusiness from "@/components/BestBusiness/BestBusiness";
-import Cards from "@/components/Cards/Card";
-import Billing from "@/components/Billing/Billing";
-import CounterData from "@/components/CounterData/CounterData";
-import FirstBlock from "@/components/FirstBlock/FirstBlock";
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
-import Payments from "@/components/Payments/Payments";
-import Testimonials from "@/components/Testimonials/Testimonials";
+import { Header } from "@/components/Header";
+import { Hero } from "@/components/Hero";
+import { Stats } from "@/components/Stats";
+import { Features } from "@/components/Features";
+import { CardPicker } from "@/components/CardPicker";
+import { SavingsCalculator } from "@/components/SavingsCalculator";
+import { Steps } from "@/components/Steps";
+import { Testimonials } from "@/components/Testimonials";
+import { Faq } from "@/components/Faq";
+import { Signup } from "@/components/Signup";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
       <Header />
-      <FirstBlock />
-      <CounterData />
-      <BestBusiness />
-      <Cards />
-      <Billing />
-      <Testimonials />
-      <Payments />
+      <main id="contenido">
+        <Hero />
+        <Stats />
+        <Features />
+        <CardPicker />
+        <SavingsCalculator />
+        <Steps />
+        <Testimonials />
+        <Faq />
+        <Signup />
+      </main>
       <Footer />
     </>
-  )
+  );
 }
